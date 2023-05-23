@@ -13,14 +13,12 @@ export function NavBar() {
         <header
             className="bg-red-900 w-full fixed flex"
         >
-
             <nav className="md:flex md:justify-between md:items-center md:gap-2 m-auto w-full max-w-[1000px]">
                 <div className="p-2 md:p-4">
                     <div className="flex justify-between items-center md:block">
                         <div className="h-16">
                             <Logo />
                         </div>
-
                         <div className="w-16 md:hidden">
                             <button
                                 className=""
@@ -35,9 +33,7 @@ export function NavBar() {
                             </button>
                         </div>
                     </div>
-
                 </div>
-
                 <div
                     className={`bg-red-900 p-2 md:block ${navBar ? 'block' : 'hidden'}`}
                 >
@@ -51,11 +47,8 @@ export function NavBar() {
                             liStyle="pt-4 md:pt-0 md:px-4"
                         />
                     </div>
-
                 </div>
-
             </nav>
-
         </header>
     )
 }
