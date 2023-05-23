@@ -1,13 +1,13 @@
 import Link from 'next/link'
 
-export function Logo({ logoSize = "" }) {
+export function Logo() {
     return (
         <>
-            <Link href="#home">
+            <Link href="#home" className='h-full w-full'>
                 <img
                     src="../logo.svg"
                     alt="Logo"
-                    className={logoSize}
+                    className='h-full w-full'
                 />
             </Link>
 

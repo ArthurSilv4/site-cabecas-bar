@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br"
-      className="scroll-smooth"
+      className="scroll-smooth text-white"
     >
       <body className={inter.className}>
         <NavBar />

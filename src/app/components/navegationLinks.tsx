@@ -1,30 +1,30 @@
 import Link from "next/link"
 
-export function NavegationLinks() {
+export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <Link href="#company">
-                        Quem somos
-                    </Link>
-                </li>
-                <li>
-                    <Link href="#units">
-                        Unidades
-                    </Link>
-                </li>
-                <li>
-                    <Link href="#menu">
-                        Cardapio
-                    </Link>
-                </li>
-                <li>
-                    <Link href="#contacts">
-                        Contatos
-                    </Link>
-                </li>
-            </ul>
-        </nav>
+
+        <ul className={ulStyle}>
+            <li className={liStyle}>
+                <Link href="#company">
+                    Quem somos
+                </Link>
+            </li >
+            <li className={liStyle}>
+                <Link href="#units">
+                    Unidades
+                </Link>
+            </li>
+            <li className={liStyle}>
+                <Link href="#menu" >
+                    Cardapio
+                </Link>
+            </li>
+            <li className={liStyle}>
+                <Link href="#contacts">
+                    Contatos
+                </Link>
+            </li>
+        </ul>
+
     )
 }
