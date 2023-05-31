@@ -5,7 +5,7 @@ import { SocialMedia } from "../socialMedia"
 
 export function Footer() {
     return (
-        <footer className="bg-red-900 pb-4">
+        <footer className="bg-bgRed pb-4">
             <nav className=" m-auto w-full max-w-[1000px] p-2 md:p-4 ">
                 <div className="grid grid-cols-5 gap-2">
                     <div

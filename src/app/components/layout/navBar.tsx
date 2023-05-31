@@ -11,7 +11,7 @@ export function NavBar() {
 
     return (
         <header
-            className="bg-red-900 w-full fixed flex"
+            className="bg-bgRed w-full fixed flex"
         >
             <nav className="md:flex md:justify-between md:items-center md:gap-2 m-auto w-full max-w-[1000px]">
                 <div className="p-2 md:p-4">
@@ -35,7 +35,7 @@ export function NavBar() {
                     </div>
                 </div>
                 <div
-                    className={`bg-red-900 p-2 md:block ${navBar ? 'block' : 'hidden'}`}
+                    className={`bg-bgRed p-2 md:block ${navBar ? 'block' : 'hidden'}`}
                 >
                     <div
                         className="bg-white h-1 w-full rounded-sm md:hidden"

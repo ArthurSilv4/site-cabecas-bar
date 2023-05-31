@@ -7,3 +7,7 @@
     @apply scroll-smooth;
   }
 }
+
+.active {
+  color: gray;
+}

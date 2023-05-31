@@ -1,3 +1,4 @@
+import { Slider } from "./components/layout/slider";
 
 export default function Home() {
 
@@ -7,9 +8,9 @@ export default function Home() {
     <main className="">
       <section
         id="home"
-        className="h-screen pt-20 md:pt-24 text-black"
+        className="h-screen pt-20 md:pt-24"
       >
-        home
+        <Slider/>
       </section>
 
       <section
