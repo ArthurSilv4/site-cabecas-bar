@@ -4,19 +4,9 @@ import { useState } from "react"
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
 
-export function Slider() {
+export function Slider({ slide = [{ url: '' }] }) {
 
-    const slides = [
-        {
-            url: "https://www.iped.com.br/_upload/content/2014/12/22/gerir-bares-restaurantes.jpg"
-        },
-        {
-            url: "https://servircomrequinte.francobachot.com.br/wp-content/uploads/2020/08/post_thumbnail-5119340b39b314917440ed22562078eb.jpg"
-        },
-        {
-
-        }
-    ]
+    const slides = slide
 
     const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -48,7 +38,7 @@ export function Slider() {
                 <BsChevronCompactRight onClick={nextSlide} size={30} />
             </div>
 
-            <div className="flex top-4 justify-center translate-y-[-200%]">
+            <div className="flex justify-center translate-y-[-200%]">
                 {slides.map((slide, slideIndex) => (
                     <div
                         key={slideIndex}
