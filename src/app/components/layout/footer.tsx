@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "../logo";
+import { Logo } from "../images/logo"
 import { NavegationLinks } from "../navegationLinks";
 import { SocialMedia } from "../socialMedia"
 

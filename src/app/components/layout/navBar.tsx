@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-import { Logo } from "../logo";
+import { Logo } from "../images/logo";
 import { NavegationLinks } from "../navegationLinks"
 
 export function NavBar() {
