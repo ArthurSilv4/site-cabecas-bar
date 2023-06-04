@@ -11,7 +11,7 @@ export function NavBar() {
 
     return (
         <header
-            className="bg-bgRed w-full fixed flex z-10"
+            className="bg-bgRed w-full "
         >
             <nav className="md:flex md:justify-between md:items-center md:gap-2 m-auto w-full max-w-[1000px]">
                 <div className="p-2 md:p-4">

@@ -5,7 +5,7 @@ export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
 
         <ul className={ulStyle}>
             <li className={liStyle}>
-                <Link href="#company"
+                <Link href="pages/company"
                     className="hover:text-white/75"
                 >
                     Quem somos
