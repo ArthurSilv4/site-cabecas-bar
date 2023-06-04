@@ -1,13 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-import {companyImage} from "../../components/images/imagesSlides"
-import { Carrousel } from "../../components/layout/carousel";
+import { companyImage } from "../../components/images/imagesSlides"
 
 export default function Company() {
     return (
-        <main className="w-screen h-screen flex text-black">
-            <div className="max-w-[1000px] p-2 m-auto">
-                <div>
+        <main className=" text-black ">
+             <div className="w-full max-w-[1000px] p-2 m-auto my-16">
+                <div className="">
                     <h1 className="text-yellowButton text-3xl font-semibold">
                         Música e comida de qualidade
                     </h1>
@@ -25,10 +25,18 @@ export default function Company() {
                     </p>
                 </div>
 
-                <div className="h-[500px] w-full mt-8">
-                    <Carrousel/>
+                <div className="flex flex-col md:flex-row">
+                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto md:mx-8">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto">
+                        <img src="" alt="" />
+                    </div>
                 </div>
-            </div>
+            </div> 
         </main>
     )
 }
