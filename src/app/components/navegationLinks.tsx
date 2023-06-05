@@ -19,7 +19,7 @@ export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
                 </Link>
             </li>
             <li className={liStyle}>
-                <Link href="#menu" 
+                <Link href="pages/menu" 
                     className="hover:text-white/75"
                 >
                     Cardapio
