@@ -12,7 +12,7 @@ export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
                 </Link>
             </li >
             <li className={liStyle}>
-                <Link href="#units"
+                <Link href="pages/units"
                     className="hover:text-white/75"
                 >
                     Unidades

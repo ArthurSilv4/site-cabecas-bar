@@ -26,7 +26,7 @@ export default function Company() {
                 </div>
 
                 <div className="flex flex-col md:flex-row">
-                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto">
+                    <div className="mt-8 bg-red-100 h-60 w-64 m-auto">
                         <img src="" alt="" />
                     </div>
                     <div className="mt-12 bg-red-100 h-60 w-64 m-auto md:mx-8">
