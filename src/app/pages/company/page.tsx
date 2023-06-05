@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-import { companyImage } from "../../components/images/imagesSlides"
-
 export default function Company() {
     return (
-        <main className=" text-black ">
-             <div className="w-full max-w-[1000px] p-2 m-auto my-16">
+        <main className="min-h-screen text-black ">
+            <div className="w-full max-w-[1000px] p-2 m-auto my-16">
                 <div className="">
                     <h1 className="text-yellowButton text-3xl font-semibold">
                         Música e comida de qualidade
@@ -36,7 +34,7 @@ export default function Company() {
                         <img src="" alt="" />
                     </div>
                 </div>
-            </div> 
+            </div>
         </main>
     )
 }
