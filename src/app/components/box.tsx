@@ -13,7 +13,7 @@ export function Box({ h3Text = "", h2Text = "", pText = "", bntText = "" }) {
                 {pText}
             </p>
             <button className="bg-yellowButton hover:bg-yellow-400 p-2 rounded-xl font-extrabold drop-shadow-lg mt-8">
-                <Link href={""} className='h-full w-full'>
+                <Link href={"https://wa.me/5513981788930"} className='h-full w-full'>
                     {bntText}
                 </Link>
             </button>
