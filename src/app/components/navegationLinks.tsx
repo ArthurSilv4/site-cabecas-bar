@@ -26,7 +26,7 @@ export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
                 </Link>
             </li>
             <li className={liStyle}>
-                <Link href="#contacts"
+                <Link href="pages/contacts"
                     className="hover:text-white/75"
                 >
                     Contatos

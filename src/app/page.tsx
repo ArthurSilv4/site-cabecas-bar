@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main className="text-black">
-      <section className=" w-screen h-screen max-h-[600px] md:max-h-[800px]">
+      <section className="h-screen max-h-[600px] md:max-h-[800px]">
         <Slider
           slide={homeImage}
         />
