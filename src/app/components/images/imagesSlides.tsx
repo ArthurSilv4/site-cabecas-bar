@@ -3,7 +3,7 @@ export const homeImage = [
         url: 'https://www.iped.com.br/_upload/content/2014/12/22/gerir-bares-restaurantes.jpg'
     },
     {
-        url: '../public/images/Slide.png'
+        url: 'https://github.com/ArthurSilv4/site-cabecas-bar/blob/main/public/images/boasVindas.png?raw=true'
     }
 ]
 
