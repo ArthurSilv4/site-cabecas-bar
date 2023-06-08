@@ -1,8 +1,5 @@
 export const homeImage = [
     {
-        url: 'https://www.iped.com.br/_upload/content/2014/12/22/gerir-bares-restaurantes.jpg'
-    },
-    {
         url: 'https://github.com/ArthurSilv4/site-cabecas-bar/blob/main/public/images/bemVindo.png?raw=true'
     },
     {
