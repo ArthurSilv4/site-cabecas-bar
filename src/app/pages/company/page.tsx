@@ -24,14 +24,14 @@ export default function Company() {
                 </div>
 
                 <div className="flex flex-col md:flex-row">
-                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto">
-                        <img src="" alt="" />
+                    <div className="mt-12 h-60 w-64 m-auto">
+                        <img src="https://static.ndmais.com.br/2021/10/bar-800x600.jpg" alt="Imagem ilusreariva bar"  className="h-full w-full bg-cover bg-center drop-shadow-2xl"/>
                     </div>
-                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto md:mx-8">
-                        <img src="" alt="" />
+                    <div className="mt-12 h-60 w-64 m-auto md:mx-8">
+                        <img src="https://img.freepik.com/vetores-gratis/placa-de-neon-para-pub-ou-restaurante_23-2149086446.jpg?w=826&t=st=1686436242~exp=1686436842~hmac=73d6b70081c9b7b75503748638480acb5c0ea5126fe94c5c6d91f3ae08f08eb4" alt="Imagem ilusreariva bar e restaurante"  className="h-full w-full bg-cover bg-center drop-shadow-2xl"/>
                     </div>
-                    <div className="mt-12 bg-red-100 h-60 w-64 m-auto">
-                        <img src="" alt="" />
+                    <div className="mt-12 h-60 w-64 m-auto">
+                        <img src="https://i.pinimg.com/564x/af/60/f8/af60f8a2e6a25e2b358282a4a7cc17ea.jpg" alt="Imagem ilusreariva nordeste"  className="h-full w-full bg-cover bg-center drop-shadow-2xl"/>
                     </div>
                 </div>
             </div>
