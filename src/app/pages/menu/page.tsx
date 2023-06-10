@@ -4,7 +4,7 @@ import { Box } from "../../components/box";
 
 export default function Menu() {
 
-    function createFoodList(array) {
+    function createFoodList(array: any[]) {
         return array.map((obj, index) => (
             <div
                 key={index}
