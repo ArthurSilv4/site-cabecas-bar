@@ -9,8 +9,9 @@ O objetivo deste site é fornecer informações sobre o restaurante, incluindo d
 
 Você pode acessar o site clicando [Aqui](https://cabecas-bar.vercel.app)
 
-Layout 
-![Layout](https://github.com/ArthurSilv4/gerador-de-tema-redacao/blob/main/public/Mackups.svg) 
+
+# Layout
+![Layout](https://raw.githubusercontent.com/ArthurSilv4/site-cabecas-bar/0556bd88d98ae8597cc5238cae9d913fb4fe0333/public/Mackups.svg) 
 
 
 
