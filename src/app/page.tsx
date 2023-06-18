@@ -20,7 +20,7 @@ export default function Home() {
             O BAR E RESTAURANTE
           </h1>
           <p className="text-center font-extrabold my-7">
-            Originalmente fundado em [data] de 2008, por uma família tradicional nordestina, o restaurante Cabeças bar é capaz de proporcionar uma excelente experiência para quem deseja compartilhar momentos agradáveis ao lado da família e dos amigos.
+            Originalmente fundado em outubro de 2008, por uma família tradicional nordestina, o restaurante Cabeças bar é capaz de proporcionar uma excelente experiência para quem deseja compartilhar momentos agradáveis ao lado da família e dos amigos.
           </p>
           <div className="flex">
             <button className="bg-bgRed hover:bg-red-800 text-white font-bold m-auto p-2 rounded-2xl drop-shadow-2xl">
