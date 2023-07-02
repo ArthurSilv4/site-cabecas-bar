@@ -29,7 +29,7 @@ export default function Menu() {
         { name: 'Buchada', url: 'https://www.sabornamesa.com.br/media/k2/items/cache/973d452191c64a038927e95436dac7d2_XL.jpg' },
         { name: 'Sarapatel', url: 'https://i0.wp.com/xtudoreceitas.com/wp-content/uploads/Sarapatel-Tipico-Nordestino.jpg?w=650&ssl=1' },
         { name: 'Dobradinha', url: 'https://hqdavida.com.br/storage/2023/02/Aprenda-a-fazer-a-melhor-dobradinha-com-bacon-e-feijao-branco-que-ja-experimentou.jpeg' },
-        { name: 'File de frando aparmediana', url: 'https://receitinhas.com.br/wp-content/uploads/2022/10/File-de-frango-a-parmegiana-Receita-de-mae2-730x365.png' },
+        { name: 'File de frando à parmegiana', url: 'https://receitinhas.com.br/wp-content/uploads/2022/10/File-de-frango-a-parmegiana-Receita-de-mae2-730x365.png' },
     ];
 
 
