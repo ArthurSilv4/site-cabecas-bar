@@ -22,7 +22,7 @@ export function NavegationLinks({ ulStyle = "", liStyle = "" }) {
                 <Link href="pages/menu" 
                     className="hover:text-white/75"
                 >
-                    Cardapio
+                    Cardápio
                 </Link>
             </li>
             <li className={liStyle}>
