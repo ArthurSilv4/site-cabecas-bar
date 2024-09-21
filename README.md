@@ -7,8 +7,6 @@ O site foi criado para que o restaurante Cabeças Bar tenha presença na interne
 
 O objetivo deste site é fornecer informações sobre o restaurante, incluindo dados de contato, localização e cardápio, para que futuros clientes possam encontrar o restaurante com facilidade.
 
-Você pode acessar o site clicando [Aqui](https://cabecas-bar.vercel.app)
-
 
 # Layout
 ![Layout](https://raw.githubusercontent.com/ArthurSilv4/site-cabecas-bar/0556bd88d98ae8597cc5238cae9d913fb4fe0333/public/Mackups.svg) 
